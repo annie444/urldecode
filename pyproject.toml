@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "urldecode"
+name = "urldecode_cli"
 version = "0.1.0"
 description = "CLI tool to quickly decode URL encoded strings"
 authors = ["Annie Ehler <annie.ehler.4@gmail.com>"]
@@ -17,4 +17,4 @@ requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
-urldecode = 'urldecode.cli:urldecode'
+urldecode = 'urldecode-cli-parser.cli:urldecode'
