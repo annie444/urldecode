@@ -1,7 +1,7 @@
 from urllib.parse import unquote
-from click_extra import extra_command, echo, argument
+from click import command, echo, argument
 
-@extra_command()
+@command()
 @argument("url_string")
 def urldecode(url_string):
     utf_string = unquote(url_string)

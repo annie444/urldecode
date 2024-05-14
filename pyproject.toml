@@ -10,8 +10,6 @@ repository = "https://github.com/annie444/urldecode"
 [tool.poetry.dependencies]
 python = "^3.12"
 click = "^8.1.7"
-click-fish = "^0.1.0"
-click-extra = "^4.7.5"
 
 
 [build-system]
